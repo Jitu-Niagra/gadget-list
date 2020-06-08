@@ -1,0 +1,29 @@
+.navbar{
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    a{
+        margin-right: 5rem;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin:2rem auto;
+        li{
+            a{
+                text-decoration: none;
+                color:green;
+                font-weight: 900; 
+                font-size: large;
+                text-transform:uppercase;
+            }
+            a:hover{
+                color: white;
+            }
+            
+        }
+
+    }
+    
+    
+}

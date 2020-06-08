@@ -1,0 +1,38 @@
+.card{
+    border: 3px solid blue;
+    max-height:  30rem;
+    max-width: 20rem;
+    margin: 2rem 2rem;
+    position: relative;
+
+    img{
+        max-width:20rem;
+        max-height: 20rem;
+    }
+    .info{
+        background:  green;
+        color: white;
+    }
+
+    img:hover{
+        opacity:1
+    }
+    span{
+        .close{
+            color:green;
+            position: absolute;
+            display: block;
+            top:5%;
+            right:5%;
+            cursor:pointer;
+            transition: all 0.3s linear;
+            opacity: 0;
+        }
+        .close:hover{
+            opacity:1;
+        }
+    }
+    
+}
+    
+    
